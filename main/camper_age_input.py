@@ -8,7 +8,7 @@ import constants
 
 
 def convert_to_months(years):
-    months = years * 12
+    months = years * constants.MONTHS
     return months
 
 
