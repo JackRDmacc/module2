@@ -1,10 +1,16 @@
 """
+Program: camper_age_input.py
+Author: Jack Reser
 
-
+program that accepts an integer value for years and returns an integer representing months.
 """
+import constants
+
+
 def convert_to_months(years):
     months = years * 12
     return months
+
 
 if __name__ == '__main__':
     age_in_years = input("Enter your childs age: ")
